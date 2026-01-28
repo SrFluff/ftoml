@@ -4,5 +4,5 @@ An incredibly stupid TOML parsing library. I'm too lazy to explain how it works,
 
 ```
 import ftoml
-a = ftoml.check("example.toml")
+a = ftoml.read("example.toml")
 ```
